@@ -1,0 +1,1 @@
+SELECT Name,npe4__Active__c,npe4__Female__c,npe4__Male__c,npe4__Neutral__c FROM npe4__Relationship_Lookup__c
