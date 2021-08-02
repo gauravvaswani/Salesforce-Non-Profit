@@ -1,0 +1,88 @@
+# This file is used for Git repositories to specify intentionally untracked files that Git should ignore. 
+# If you are not using git, you can delete this file. For more information see: https://git-scm.com/docs/gitignore
+# For useful gitignore templates see: https://github.com/github/gitignore
+
+# Visual Studio
+.vscode
+config
+.eslintignore
+.forceignore
+.prettierignore
+.prettierrc
+jest.config.js
+package.json
+sfdx-project.json
+manifest/package.xml
+
+# Salesforce cache
+.sfdx/
+.localdevserver/
+
+#Managed packages can trigger the installation or uninstallation of applications, it is  
+#recommended to manage this outside git
+
+installedPackages/*
+
+#if you are not customizing a managed package, you can keep your repository clean by ignoring 
+#all files for that package. For example, to ignore all files of the "Copado" managed package
+#just add to your gitignore file the following text: *copado__*
+#if you will be customizing managed packages, make sure that the same version of the package 
+#is installed on all your environments so that deployments will only update existing 
+#managed components. Creation of managed components is not permitted by the API.
+#It is recommended that you ignore managed components that cannot be modified 
+#since there is no need to track them in Git, like for example:
+
+classes/npe01__*
+triggers/npe01__*
+pages/npe01__*
+
+classes/npo02__*
+triggers/npo02__*
+pages/npo02__*
+
+classes/npe03__*
+triggers/npe03__*
+pages/npe03__*
+
+classes/npe4__*
+triggers/npe4__*
+pages/npe4__*
+
+classes/npe5__*
+triggers/npe5__*
+pages/npe5__*
+
+classes/npsp__*
+triggers/npsp__*
+pages/npsp__*
+
+# LWC VSCode autocomplete
+**/lwc/jsconfig.json
+
+# LWC Jest coverage reports
+coverage/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+
+# Eslint cache
+.eslintcache
+
+# MacOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Local environment variables
+.env
