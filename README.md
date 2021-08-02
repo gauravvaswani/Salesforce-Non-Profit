@@ -23,4 +23,4 @@
         - View and Edit Donations
         - View and Edit Donations & Payments
     - CLI command to import Relationships - Relationship Reciprocal Settings:\
-    `sfdx force:data:tree:import -p npe4__Relationship_Lookup__c-plan.json`
+    `sfdx force:data:tree:import -p data/npsp-relationship-lookup/npe4__Relationship_Lookup__c-plan.json`
