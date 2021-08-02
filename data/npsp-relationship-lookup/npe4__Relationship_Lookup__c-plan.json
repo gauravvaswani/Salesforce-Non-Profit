@@ -1,0 +1,10 @@
+[
+    {
+        "sobject": "npe4__Relationship_Lookup__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "npe4__Relationship_Lookup__cs.json"
+        ]
+    }
+]
