@@ -23,5 +23,6 @@
     <tabs>standard-report</tabs>
     <tabs>npe03__Recurring_Donation__c</tabs>
     <tabs>npsp__Level__c</tabs>
+    <tabs>npsp__Trigger_Handler__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>
