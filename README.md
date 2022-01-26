@@ -24,3 +24,7 @@
         - View and Edit Donations & Payments
     - CLI command to import Relationships - Relationship Reciprocal Settings:\
     `sfdx force:data:tree:import -p data/npsp-relationship-lookup/npe4__Relationship_Lookup__c-plan.json`
+
+    ## Lightning Email Templates
+    - Upgraded NPSP Opportunity Acknowledgment classic email template to lightning using Lightning Email Template Builder
+    - [Lightning Email Template Builder](https://help.salesforce.com/s/articleView?id=sf.email_template_builder_parent.htm&type=5)
