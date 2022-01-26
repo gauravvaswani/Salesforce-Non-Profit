@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>A Thank You email to Household Accounts for donations (opportunities)</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>NPSP Opportunity Acknowledgment - Lightning</name>
+    <pageDevName>NPSP_Opportunity_Acknowledgment_Lightning</pageDevName>
+    <relatedEntityType>Opportunity</relatedEntityType>
+    <style>none</style>
+    <subject>Thank you!</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>
