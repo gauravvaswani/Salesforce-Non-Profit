@@ -1,0 +1,2 @@
+SELECT ApiVersion, Body, Description, DeveloperName, Encoding, FolderName, HtmlValue, Id, IsActive, IsBuilderContent, Markup, Name, NamespacePrefix, RelatedEntityType, Subject, TemplateStyle, TemplateType, UiType
+  FROM EmailTemplate WHERE IsBuilderContent = TRUE

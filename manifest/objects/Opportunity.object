@@ -124,6 +124,22 @@
             <default>false</default>
         </values>
     </businessProcesses>
+    <listViews>
+        <fullName>All_Donations</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Opportunity.Donation</value>
+        </filters>
+        <label>All Donations</label>
+    </listViews>
     <recordTypes>
         <fullName>Donation</fullName>
         <active>true</active>
@@ -556,20 +572,4 @@
             </values>
         </picklistValues>
     </recordTypes>
-    <listViews>
-        <fullName>All_Donations</fullName>
-        <columns>OPPORTUNITY.NAME</columns>
-        <columns>ACCOUNT.NAME</columns>
-        <columns>OPPORTUNITY.AMOUNT</columns>
-        <columns>OPPORTUNITY.CLOSE_DATE</columns>
-        <columns>OPPORTUNITY.STAGE_NAME</columns>
-        <columns>CORE.USERS.ALIAS</columns>
-        <filterScope>Everything</filterScope>
-        <filters>
-            <field>OPPORTUNITY.RECORDTYPE</field>
-            <operation>equals</operation>
-            <value>Opportunity.Donation</value>
-        </filters>
-        <label>All Donations</label>
-    </listViews>
 </CustomObject>
