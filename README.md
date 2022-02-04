@@ -27,4 +27,8 @@
 
     ## Lightning Email Templates
     - Upgraded NPSP Opportunity Acknowledgment classic email template to lightning using Lightning Email Template Builder
-    - [Lightning Email Template Builder](https://help.salesforce.com/s/articleView?id=sf.email_template_builder_parent.htm&type=5)
+    - [Lightning Email Template Builder](https://help.salesforce.com/s/articleView?id=sf.email_template_builder_parent.htm&type=5)<br/><br>
+  >**How to deploy Lightning Email Templates?**
+    - To deploy lightning email templates built with Email Template builder, Salesforce creates a FlexiPage of Type - EmailTemplatePage. ([FlexiPage Metadata](https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_flexipage.htm))
+    - Retrieve and deploy the metadata for the Email Template Folder, Email Template and FlexiPage
+    - Email Templates configured using Lightning Email Template Builder have the **_Made in Email Template Builder (IsBuilderContent)_** checkbox - **True**

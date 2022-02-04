@@ -24,5 +24,6 @@
     <tabs>npsp__DataImportBatch__c</tabs>
     <tabs>npsp__NPSP_Settings</tabs>
     <tabs>standard-report</tabs>
+    <tabs>npsp__Trigger_Handler__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>
